@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfMediaDB.exe" size="35840">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfMediaDB.exe" size="36864">
       <assemblyIdentity name="WpfMediaDB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>2/nlRljwNY6Ap0sR+YqYnuqOeMM=</dsig:DigestValue>
+        <dsig:DigestValue>6C9HuTO7xXlluoWYNaOpKZtzmcc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -59,7 +59,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>o3waeBO+iP8geHx3KTAD4gkSBA0=</dsig:DigestValue>
+      <dsig:DigestValue>+1aaCso2wsFoKmgjJ4ciD28s76M=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

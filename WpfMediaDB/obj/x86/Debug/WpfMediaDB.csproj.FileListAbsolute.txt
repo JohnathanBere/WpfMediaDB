@@ -62,7 +62,6 @@ C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe.manife
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.application
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.pdb
-C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csprojResolveAssemblyReference.cache
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\audioPlayer.baml
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\EditWindow.baml
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.baml

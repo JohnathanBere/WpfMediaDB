@@ -339,5 +339,14 @@ namespace WpfMediaDB
             aPlayer.Volume += (e.Delta > 0) ? 0.1 : -0.1;
         }
 
+        private void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            // the search button function now changes the remaining textboxes whenever a line is entered
+            myDataTable.Clear();
+            string command = "SELECT * FROM Music WHERE TrackName LIKE '%" + searchTextbox.Text+ "%' OR Artist LIKE '%" + searchTextbox.Text + "%' OR Album LIKE '%" + searchTextbox.Text + "%' OR Genre LIKE '%" + searchTextbox.Text + "&' ";
+            FillDataTable(command);
+            DisplayRow(currentRecord);
+        }
+
     }
 }
