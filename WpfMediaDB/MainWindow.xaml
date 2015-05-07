@@ -1,0 +1,112 @@
+﻿<Window x:Class="WpfMediaDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="390" Width="1150">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Open" CanExecute="Open_CanExecute" Executed="Open_Executed" />
+        <CommandBinding Command="MediaCommands.Play" CanExecute="Play_CanExecute" Executed="Play_Executed" />
+        <CommandBinding Command="MediaCommands.Pause" CanExecute="Pause_CanExecute" Executed="Pause_Executed" />
+        <CommandBinding Command="MediaCommands.Stop" CanExecute="Stop_CanExecute" Executed="Stop_Executed" />
+    </Window.CommandBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Menu bar-->
+            <RowDefinition Height="*"/>
+            <!-- Content-->
+            <RowDefinition Height="Auto"/>
+            <!-- Buttons go here -->
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0">
+            <MediaElement Name="aPlayer" Grid.Row="1" LoadedBehavior="Manual" Stretch="None" Opacity="0" />
+
+        </Menu>
+
+        <Grid Grid.Row="1">
+            <!-- grid for input controls -->
+            <!-- 4 rows-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+
+            <!-- 2 columns in each of the 4 rows -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <!-- Labels -->
+                <ColumnDefinition Width="*"/>
+                <!-- Textboxes here occupies all remaining -->
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0">TrackNo</Label>
+            <TextBox x:Name="trackNumberTextBox" Grid.Column="1" Height="30"/>
+
+            <Label Grid.Column="0" Grid.Row="1">TrackName</Label>
+            <TextBox x:Name="trackNameTextbox" Grid.Column="1" Grid.Row="1" Height="30"/>
+
+            <Label Grid.Column="0" Grid.Row="2">Artist</Label>
+            <TextBox x:Name="artistTextbox" Grid.Column="1" Grid.Row="2" Height="30"/>
+
+            <Label Grid.Column="0" Grid.Row="3">Album</Label>
+            <TextBox x:Name="albumTextbox" Grid.Column="1" Grid.Row="3" Height="30"/>
+
+            <Label Grid.Column="0" Grid.Row="4">Genre</Label>
+            <TextBox x:Name="genreTextbox" Grid.Column="1" Grid.Row="4" Height="30"/>
+
+            <Label Grid.Column="0" Grid.Row="5">YearReleased</Label>
+            <TextBox x:Name="yearReleasedTextbox" Grid.Column="1" Grid.Row="5" Height="30"/>
+
+            <Label Grid.Column="0" Grid.Row="6">FilePath</Label>
+            <TextBox x:Name="filePathTextbox" Grid.Column="1" Grid.Row="6" Height="30"/>
+            
+
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="7">
+                <Button Content="First" x:Name="firstButton" Width="80" Height="30" Margin="0,0,10,0" Click="firstButton_Click" />
+                <Button Content="Previous" x:Name="prevButton" Width="80" Height="30" Margin="0,0,10,0" Click="prevButton_Click" />
+                <Button Content="Next" x:Name="nextButton" Width="80" Height="30" Margin="0,0,10,0" Click="nextButton_Click" />
+                <Button Content="Last" x:Name="lastButton" Width="80" Height="30" Margin="0,0,10,0" Click="lastButton_Click" />
+                <Button Content="Modify" x:Name="modifyButton" Width="80" Height="30" Margin="0,0,10,0" Click="modify_Click" />
+                <Button Content="Add" x:Name="addButton" Width="80" Height="30" Margin="0,0,10,0" Click="addButton_Click" />
+                <Button Content="Play" x:Name="playButton" Width="80" Height="30" Margin="0,0,10,0"  Command="MediaCommands.Play"/>
+                <Button Content="Pause" x:Name="pauseButton" Width="80" Height="30" Margin="0,0,10,0"  Command="MediaCommands.Pause"/>
+                <Button Content="Stop" x:Name="stopButton" Width="80" Height="30" Margin="0,0,10,0"  Command="MediaCommands.Stop"/>
+                <Button Content="Open" x:Name="openButton" Width="80" Height="30" Margin="0,0,10,0"  Command="ApplicationCommands.Open" />
+                <Button Grid.Column="0" Grid.Row="4" Content="Delete" x:Name="deleteButton" Width="80" Height="30" Margin="0, 0, 8, 0" Click="deleteButton_Click" Background="IndianRed"/>
+            </StackPanel>
+        </Grid>
+
+        <StatusBar Grid.Row="2">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem>
+                <TextBlock Name="lblProgressStatus">00:00:00</TextBlock>
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="1" HorizontalAlignment="Stretch">
+                <Slider Name="sliProgress" Thumb.DragStarted="sliProgress_DragStarted" Thumb.DragCompleted="sliProgress_DragCompleted" ValueChanged="sliProgress_ValueChanged" Width="900" Height="16" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="2">
+                <ProgressBar Name="pbVolume" Width="50" Height="12" Maximum="1" Value="{Binding ElementName=aPlayer, Path=Volume}" />
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="3">
+                <Label x:Name="statusLbl">...</Label>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

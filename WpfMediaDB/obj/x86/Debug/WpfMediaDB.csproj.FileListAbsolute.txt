@@ -1,0 +1,79 @@
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.baml
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.g.cs
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\App.g.cs
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB_Content.g.cs
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB_MarkupCompile.cache
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.g.resources
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.Properties.Resources.resources
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csproj.GenerateResource.Cache
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\bin\Debug\entries.accdb
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.pdb
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe
+F:\First Year\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.pdb
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.pdb
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\bin\Debug\entries.accdb
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.pdb
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csprojResolveAssemblyReference.cache
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.baml
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.g.cs
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\App.g.cs
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB_Content.g.cs
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB_MarkupCompile.cache
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.g.resources
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.Properties.Resources.resources
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csproj.GenerateResource.Cache
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\EditWindow.baml
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\EditWindow.g.cs
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe.manifest
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.application
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe.manifest
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.application
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\audioPlayer.baml
+C:\Users\John Bere\Desktop\Assignment\WpfMediaDB\WpfMediaDB\obj\x86\Debug\audioPlayer.g.cs
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.pdb
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\bin\Debug\entries.accdb
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe.manifest
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.application
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.pdb
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csprojResolveAssemblyReference.cache
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\audioPlayer.baml
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\EditWindow.baml
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.baml
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\audioPlayer.g.cs
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\EditWindow.g.cs
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.g.cs
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\App.g.cs
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB_Content.g.cs
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB_MarkupCompile.cache
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.g.resources
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.Properties.Resources.resources
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csproj.GenerateResource.Cache
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe.manifest
+F:\Data-driven-MediaPlayer-Integrated-Music-Player\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.application
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.pdb
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\entries.accdb
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe.manifest
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.application
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.pdb
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csprojResolveAssemblyReference.cache
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\audioPlayer.baml
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\EditWindow.baml
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.baml
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\audioPlayer.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\EditWindow.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\App.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB_Content.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB_MarkupCompile.cache
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.g.resources
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.Properties.Resources.resources
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csproj.GenerateResource.Cache
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe.manifest
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.application
