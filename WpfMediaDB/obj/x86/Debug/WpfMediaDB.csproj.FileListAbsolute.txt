@@ -75,3 +75,25 @@ C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csproj
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe.manifest
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.application
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csprojResolveAssemblyReference.cache
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB.pdb
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\bin\Debug\entries.accdb
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\bin\Debug\WpfMediaDB.exe.manifest
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\bin\Debug\WpfMediaDB.application
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\bin\Debug\WpfMediaDB.exe
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\bin\Debug\WpfMediaDB.pdb
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csprojResolveAssemblyReference.cache
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\audioPlayer.baml
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\EditWindow.baml
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\MainWindow.baml
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\audioPlayer.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\EditWindow.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\MainWindow.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\App.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB_Content.g.cs
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB_MarkupCompile.cache
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB.g.resources
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB.Properties.Resources.resources
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csproj.GenerateResource.Cache
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe.manifest
+C:\Users\John Bere\Desktop\WpfMediaDB - Copy\WpfMediaDB\obj\x86\Debug\WpfMediaDB.application
