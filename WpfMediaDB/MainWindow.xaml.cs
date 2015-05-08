@@ -221,6 +221,8 @@ namespace WpfMediaDB
             }
         }
 
+        // this method opens a connection with the local database
+        // updating it
         private void UpdateDB()
         {
             try
@@ -297,6 +299,8 @@ namespace WpfMediaDB
 
         private void Play_Executed(object sender, ExecutedRoutedEventArgs e)
         {
+            // once select song has been pressed, this can be used to play an entry in the database
+            // PROVIDED the file url exists
             try
             {
                 OpenFileDialog ofd = new OpenFileDialog();
@@ -306,12 +310,15 @@ namespace WpfMediaDB
                 audioPlayerIsPlaying = true;
             }
             // The executed method ensures that the boolean class confirms as true
+            // if button is executed on an invalid file url, the following message comes up
             catch (Exception)
             {
                 MessageBox.Show("Well, the program broke, try entering a valid address for the file you want to play.", "Darn");
             }
         }
 
+        // self-explanatory, the remaining Execute Routed events are just part of the buttons
+        // commanded to behave like this
         private void Pause_CanExecute(object sender, CanExecuteRoutedEventArgs e)
         {
             e.CanExecute = audioPlayerIsPlaying;
@@ -346,7 +353,7 @@ namespace WpfMediaDB
 
         private void sliProgress_DragCompleted(object sender, DragCompletedEventArgs e)
         {
-            // user has stopped dragging slider, slider will stop moving
+            //  song has finished, slider will stop moving
             userIsDraggingSlider = false;
             // a new value will have been set.
             aPlayer.Position = TimeSpan.FromSeconds(sliProgress.Value);
@@ -360,6 +367,7 @@ namespace WpfMediaDB
 
         private void volumeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
+            // this single line means that the volume of the music will be determined by the set values of the slider
             aPlayer.Volume = volumeSlider.Value;
         }
 
@@ -376,14 +384,14 @@ namespace WpfMediaDB
 
         private void selectButton_Click(object sender, RoutedEventArgs e)
         {
-            // possible to play any song based on its URL
+            // possible to select any song based on its URL alone
             try
             {
                 OpenFileDialog ofd = new OpenFileDialog();
                 ofd.FileName = filePathTextbox.Text.ToString();
                 aPlayer.Source = new Uri(ofd.FileName);
             }
-
+            // Appropriate response for when an error occurs.
             catch (Exception)
             {
                 MessageBox.Show("Well, the program broke, try entering a valid address for the file you want to play.", "Darn");

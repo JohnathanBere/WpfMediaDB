@@ -63,7 +63,9 @@ namespace WpfMediaDB
                 ID3v1Tag ti = new ID3v1Tag();
                 ti = tr.ReadID3v1Tag(ofd.FileName);
 
-                //
+                // when these values are set
+                // the textboxes should display
+                // attributes from the tag reader class
                 filePathTextbox.Text = ofd.FileName;
                 trackNameTextbox.Text = ti.TrackName;
                 artistTextbox.Text = ti.ArtistsName;
