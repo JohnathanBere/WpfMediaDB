@@ -358,9 +358,9 @@ namespace WpfMediaDB
             lblProgressStatus.Text = TimeSpan.FromSeconds(sliProgress.Value).ToString(@"hh\:mm\:ss");
         }
 
-        private void Grid_MouseWheel(object sender, MouseWheelEventArgs e)
+        private void volumeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            aPlayer.Volume += (e.Delta > 0) ? 0.1 : -0.1;
+            aPlayer.Volume = volumeSlider.Value;
         }
 
         private void searchButton_Click(object sender, RoutedEventArgs e)
