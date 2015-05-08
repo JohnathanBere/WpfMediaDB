@@ -130,7 +130,7 @@ namespace WpfMediaDB
         private void volumeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             // this single line means that the volume of the music will be determined by the set values of the slider
-            aPlayer.Volume = volumeSlider.Value;
+            aPlayer.Volume = (double)volumeSlider.Value;
         }
     }
 }
