@@ -4,7 +4,6 @@
         Title="MainWindow" Height="490" Width="1150">
     <!-- Only added commands for the 4 buttons, partly to disable some functionality by default upon opening the application-->
     <Window.CommandBindings>
-        <CommandBinding Command="ApplicationCommands.Open" CanExecute="Open_CanExecute" Executed="Open_Executed" />
         <CommandBinding Command="MediaCommands.Play" CanExecute="Play_CanExecute" Executed="Play_Executed" />
         <CommandBinding Command="MediaCommands.Pause" CanExecute="Pause_CanExecute" Executed="Pause_Executed" />
         <CommandBinding Command="MediaCommands.Stop" CanExecute="Stop_CanExecute" Executed="Stop_Executed" />
@@ -82,7 +81,7 @@
                 <Button Content="Play" x:Name="playButton" Width="80" Height="30" Margin="0,0,10,0"  Command="MediaCommands.Play"/>
                 <Button Content="Pause" x:Name="pauseButton" Width="80" Height="30" Margin="0,0,10,0"  Command="MediaCommands.Pause"/>
                 <Button Content="Stop" x:Name="stopButton" Width="80" Height="30" Margin="0,0,10,0"  Command="MediaCommands.Stop"/>
-                <Button Content="Open" x:Name="openButton" Width="80" Height="30" Margin="0,0,10,0"  Command="ApplicationCommands.Open" />
+                <Button Content="Select Song" x:Name="selectButton" Width="80" Height="30" Margin="0,0,10,0"  Click="selectButton_Click"/>
                 <Button Grid.Column="0" Grid.Row="4" Content="Delete" x:Name="deleteButton" Width="80" Height="30" Margin="0, 0, 8, 0" Click="deleteButton_Click" Background="IndianRed"/>
             </StackPanel>
         </Grid>
@@ -106,7 +105,7 @@
             </StatusBarItem>
             <!-- implemented a slider progress bar, intending to calculate how far along song is-->
             <StatusBarItem Grid.Column="1" HorizontalAlignment="Stretch">
-                <Slider Name="sliProgress" Thumb.DragStarted="sliProgress_DragStarted" Thumb.DragCompleted="sliProgress_DragCompleted" ValueChanged="sliProgress_ValueChanged" Width="900" Height="16" />
+                <Slider Name="sliProgress" Thumb.DragStarted="sliProgress_DragStarted" Thumb.DragCompleted="sliProgress_DragCompleted" ValueChanged="sliProgress_ValueChanged" Width="900" Height="10" />
             </StatusBarItem>
             <!-- volume, ordinarily adjustable by moving scrollwheel of mouse or a scrolling tracker on a pad-->
             <StatusBarItem Grid.Column="2">

@@ -62,10 +62,8 @@ C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe.manife
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.application
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.exe
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\bin\Debug\WpfMediaDB.pdb
-C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\audioPlayer.baml
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\EditWindow.baml
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.baml
-C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\audioPlayer.g.cs
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\EditWindow.g.cs
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\MainWindow.g.cs
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\App.g.cs

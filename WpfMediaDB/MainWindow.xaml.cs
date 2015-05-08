@@ -266,8 +266,6 @@ namespace WpfMediaDB
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.DefaultExt = "*.mp3";
             ofd.Filter = "Audio files (*.mp3; *.mpg; *.mpeg; *.wav; *.aac)| *.mp3; *.mpg; *.mpeg; *.wav; *.aac";
-            ofd.FileName = filePathTextbox.Text;
-
             if (ofd.ShowDialog() == true)
             {
                 // the media element is  
@@ -299,9 +297,19 @@ namespace WpfMediaDB
 
         private void Play_Executed(object sender, ExecutedRoutedEventArgs e)
         {
-            aPlayer.Play();
-            audioPlayerIsPlaying = true;
+            try
+            {
+                OpenFileDialog ofd = new OpenFileDialog();
+                ofd.FileName = filePathTextbox.Text.ToString();
+                aPlayer.Source = new Uri(ofd.FileName);
+                aPlayer.Play();
+                audioPlayerIsPlaying = true;
+            }
             // The executed method ensures that the boolean class confirms as true
+            catch (Exception)
+            {
+                MessageBox.Show("Well, the program broke, try entering a valid address for the file you want to play.", "Darn");
+            }
         }
 
         private void Pause_CanExecute(object sender, CanExecuteRoutedEventArgs e)
@@ -322,6 +330,7 @@ namespace WpfMediaDB
 
         private void Stop_Executed(object sender, ExecutedRoutedEventArgs e)
         {
+            DispatcherTimer timer = new DispatcherTimer();
             aPlayer.Stop();
             audioPlayerIsPlaying = false;
             // Simply sets the the boolean class as false once executed, returning the time of the song to zero.
@@ -362,6 +371,23 @@ namespace WpfMediaDB
             string command = "SELECT * FROM Music WHERE TrackName LIKE '%" + searchTextbox.Text+ "%' OR Artist LIKE '%" + searchTextbox.Text + "%' OR Album LIKE '%" + searchTextbox.Text + "%' OR Genre LIKE '%" + searchTextbox.Text + "&' ";
             FillDataTable(command);
             DisplayRow(currentRecord);
+            statusLbl.Content = (currentRecord + 1).ToString() + " of " + myDataTable.Rows.Count.ToString();
+        }
+
+        private void selectButton_Click(object sender, RoutedEventArgs e)
+        {
+            // possible to play any song based on its URL
+            try
+            {
+                OpenFileDialog ofd = new OpenFileDialog();
+                ofd.FileName = filePathTextbox.Text.ToString();
+                aPlayer.Source = new Uri(ofd.FileName);
+            }
+
+            catch (Exception)
+            {
+                MessageBox.Show("Well, the program broke, try entering a valid address for the file you want to play.", "Darn");
+            }
         }
 
     }
