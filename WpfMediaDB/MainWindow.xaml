@@ -109,7 +109,7 @@
             </StatusBarItem>
             <!-- volume, ordinarily adjustable by moving scrollwheel of mouse or a scrolling tracker on a pad-->
             <StatusBarItem Grid.Column="2">
-                <Slider Name="volumeSlider" Width="91" HorizontalAlignment="Stretch" ValueChanged="volumeSlider_ValueChanged" Value="5"/>
+                <Slider Name="volumeSlider" Width="91" HorizontalAlignment="Stretch" ValueChanged="volumeSlider_ValueChanged" SmallChange="0.1" Value="1"/>
             </StatusBarItem>
             <StatusBarItem Grid.Column="3">
                 <Label x:Name="statusLbl">...</Label>
