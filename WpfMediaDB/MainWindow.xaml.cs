@@ -109,6 +109,7 @@ namespace WpfMediaDB
                 albumTextbox.Text = row["Album"].ToString();
                 genreTextbox.Text = row["Genre"].ToString();
                 yearReleasedTextbox.Text = row["YearReleased"].ToString();
+                filePathTextbox.Text = row["FilePath"].ToString();
             }
             catch (Exception ex)
             { 
@@ -120,12 +121,14 @@ namespace WpfMediaDB
 
         private void nextButton_Click(object sender, RoutedEventArgs e)
         {
-
+            // Increments on the bases that currentRecord is not equal to
+            // the amount of data entries
             if (currentRecord != myDataTable.Rows.Count - 1)
             {
                 currentRecord++;
                 DisplayRow(currentRecord);
             }
+            // when last entry has been reached, following code has been implemented to produce a message box.
             else
             {
                 const string caption = "Can't go further";
@@ -136,11 +139,15 @@ namespace WpfMediaDB
 
         private void prevButton_Click(object sender, RoutedEventArgs e)
         {
+            // provided current record is greater than zero, it'll
+            // be possible to decrement each time previous button is clicked
+            // to go back on entries
             if (currentRecord > 0)
             {
                 currentRecord--;
                 DisplayRow(currentRecord);
             }
+            // otherwise the message informs the user that they are at the first entry
             else
             {
                 const string caption = "Can't go further back";
@@ -259,6 +266,7 @@ namespace WpfMediaDB
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.DefaultExt = "*.mp3";
             ofd.Filter = "Audio files (*.mp3; *.mpg; *.mpeg; *.wav; *.aac)| *.mp3; *.mpg; *.mpeg; *.wav; *.aac";
+            ofd.FileName = filePathTextbox.Text;
 
             if (ofd.ShowDialog() == true)
             {
@@ -275,25 +283,31 @@ namespace WpfMediaDB
                 artistTextbox.Text = ti.ArtistsName;
                 albumTextbox.Text = ti.AlbumName;
                 genreTextbox.Text = ti.Genres;
-                yearReleasedTextbox.Text = ti.Genres;
+                yearReleasedTextbox.Text = ti.Year;
 
             }
         }
 
+        // Now setting commands that consist of methods that can be executed and the arguments that follow
+        // and the behaviour of the audioplayer once an executed method has taken place
         private void Play_CanExecute(object sender, CanExecuteRoutedEventArgs e)
         {
             e.CanExecute = (aPlayer != null) && (aPlayer.Source != null);
+            // where neither the aPlayer MediaElement instance equals not null as well as the source property
+            // not equals null.
         }
 
         private void Play_Executed(object sender, ExecutedRoutedEventArgs e)
         {
             aPlayer.Play();
             audioPlayerIsPlaying = true;
+            // The executed method ensures that the boolean class confirms as true
         }
 
         private void Pause_CanExecute(object sender, CanExecuteRoutedEventArgs e)
         {
             e.CanExecute = audioPlayerIsPlaying;
+
         }
 
         private void Pause_Executed(object sender, ExecutedRoutedEventArgs e)
@@ -310,6 +324,7 @@ namespace WpfMediaDB
         {
             aPlayer.Stop();
             audioPlayerIsPlaying = false;
+            // Simply sets the the boolean class as false once executed, returning the time of the song to zero.
         }
 
         // userIsDraggingSlider boolean class will be referenced in these methods
@@ -342,6 +357,7 @@ namespace WpfMediaDB
         private void searchButton_Click(object sender, RoutedEventArgs e)
         {
             // the search button function now changes the remaining textboxes whenever a line is entered
+            // if there exists entries with similiar attributes like same artist and album, will navigate through available results
             myDataTable.Clear();
             string command = "SELECT * FROM Music WHERE TrackName LIKE '%" + searchTextbox.Text+ "%' OR Artist LIKE '%" + searchTextbox.Text + "%' OR Album LIKE '%" + searchTextbox.Text + "%' OR Genre LIKE '%" + searchTextbox.Text + "&' ";
             FillDataTable(command);

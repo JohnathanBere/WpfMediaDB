@@ -38,6 +38,7 @@ namespace WpfMediaDB
             this.albumTextbox.Text = editRow["Album"].ToString();
             this.genreTextbox.Text = editRow["Genre"].ToString();
             this.yearReleasedTextbox.Text = editRow["YearReleased"].ToString();
+            this.filePathTextbox.Text = editRow["FilePath"].ToString();
         }
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
@@ -56,17 +57,19 @@ namespace WpfMediaDB
             if (ofd.ShowDialog() == true)
             {
 
-                // these three lines link the
+                // these three lines link the EditWindow to the tag reader class
+                // can then instantiate objects that meet the following condition
                 ID3v1TagReader tr = new ID3v1TagReader();
                 ID3v1Tag ti = new ID3v1Tag();
                 ti = tr.ReadID3v1Tag(ofd.FileName);
 
+                //
                 filePathTextbox.Text = ofd.FileName;
                 trackNameTextbox.Text = ti.TrackName;
                 artistTextbox.Text = ti.ArtistsName;
                 albumTextbox.Text = ti.AlbumName;
                 genreTextbox.Text = ti.Genres;
-                yearReleasedTextbox.Text = ti.Genres;
+                yearReleasedTextbox.Text = ti.Year;
 
             }
         }
@@ -80,6 +83,7 @@ namespace WpfMediaDB
             editRow["Album"] = albumTextbox.Text;
             editRow["Genre"] = genreTextbox.Text;
             editRow["YearReleased"] = yearReleasedTextbox.Text;
+            editRow["FilePath"] = filePathTextbox.Text;
             
             // let calling window know OK was pressed
             this.DialogResult = true;

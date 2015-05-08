@@ -76,3 +76,4 @@ C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.Proper
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csproj.GenerateResource.Cache
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.exe.manifest
 C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.application
+C:\Users\John Bere\Desktop\WpfMediaDB\WpfMediaDB\obj\x86\Debug\WpfMediaDB.csprojResolveAssemblyReference.cache
